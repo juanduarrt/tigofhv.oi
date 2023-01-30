@@ -1,0 +1,220 @@
+                    /*declarar constantes de diseño para las 
+fuentes, colores y recursos*/
+                    /* estilos para el cuerpo (body)
+   se utiliza el selector de etiqueta*/
+                    /*configuraciones globales*/
+                    
+                    body {
+                        background: #739190;
+                    }
+                    /*secciones*/
+                    
+                    section h2 {
+                        text-align: center;
+                        font-size: 32px;
+                        margin-bottom: 70px;
+                    }
+                    
+                    h3 {
+                        text-align: center;
+                        color: #20ba5a;
+                        transition: all 300ms ease;
+                    }
+                    
+                    h4 {
+                        margin-left: 70px;
+                        padding: 12px;
+                    }
+                    
+                    div {
+                        padding-left: 50px;
+                        border-radius: 300px;
+                        border-color: black;
+                    }
+                    
+                    .btn-wsp {
+                        position: absolute;
+                        width: 60px;
+                        height: 60px;
+                        left: 10px;
+                        line-height: 63px;
+                        bottom: 25px;
+                        right: 25px;
+                        background: #25d366;
+                        color: #FFF;
+                        border-radius: 50px;
+                        text-align: center;
+                        font-size: 35px;
+                        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+                        z-index: 100;
+                        transition: all 300ms ease;
+                    }
+                    
+                    .social a {
+                        color: rgb(223, 226, 242);
+                        display: inline-block;
+                        background-color: #090a09;
+                        border-radius: 50%;
+                        width: 60px;
+                        height: 60px;
+                        font-size: 24px;
+                        font-weight: bold;
+                        margin-right: 60px;
+                        line-height: 30px;
+                        -webkit-transition: all .3s;
+                        -moz-transition: all .3s;
+                        -ms-transition: all .3s;
+                        transition: all .3s;
+                        padding: 12px;
+                        margin-left: 100px;
+                        margin-bottom: 15px;
+                    }
+                    
+                    #home .divider {
+                        width: 250px;
+                        margin: 0 auto;
+                        border-top: 5px solid #fe4336;
+                    }
+                    
+                    #home .social {
+                        margin-top: 80px;
+                    }
+                    
+                    #home .social a {
+                        color: var(--colorFondo);
+                        display: inline-block;
+                        background-color: var(--colorFooter);
+                        border-radius: 50%;
+                        width: 50px;
+                        height: 50px;
+                        font-size: 24px;
+                        font-weight: bold;
+                        margin-right: 10px;
+                        line-height: 50px;
+                        -webkit-transition: all .3s;
+                        -moz-transition: all .3s;
+                        -ms-transition: all .3s;
+                        transition: all .3s;
+                    }
+                    
+                    #home {
+                        text-align: center;
+                        padding: 200px 0 150px;
+                    }
+                    
+                    .divider {
+                        width: 250px;
+                        margin: 0 auto;
+                        border-top: 5px solid #fe4336;
+                    }
+                    
+                    a {
+                        color: var(--colorFondo);
+                        display: inline-block;
+                        background-color: var(--colorFooter);
+                        border-radius: 50%;
+                        width: 50px;
+                        height: 50px;
+                        font-size: 24px;
+                        font-weight: bold;
+                        margin-right: 10px;
+                        line-height: 50px;
+                        -webkit-transition: all .3s;
+                        -moz-transition: all .3s;
+                        -ms-transition: all .3s;
+                        transition: all .3s;
+                    }
+                    
+                    #home .social a:hover {
+                        background-color: #fed136;
+                    }
+                    
+                    #home .social a {
+                        color: black;
+                        display: inline-block;
+                        background-color: white;
+                        border-radius: 50%;
+                        width: 50px;
+                        height: 50px;
+                        font-size: 24px;
+                        font-weight: bold;
+                        margin-right: 10px;
+                        line-height: 50px;
+                        -webkit-transition: all .3s;
+                        -moz-transition: all .3s;
+                        -ms-transition: all .3s;
+                        transition: all .3s;
+                    }
+                    
+                    img {
+                        background-color: #17918d;
+                        border-radius: 33px;
+                        border: solid 12px white;
+                        padding-left: 2px;
+                        align-content: center;
+                        border-right-color: aqua;
+                        padding-left: 15%;
+                        padding-right: 15%;
+                        margin-left: 30px;
+                    }
+                    
+                    h1 {
+                        background-color: rgb(76, 141, 202);
+                        border-radius: 70%;
+                        margin-left: 20px;
+                        padding-left: 2px;
+                        text-align: center;
+                        text-underline-position: above;
+                        text-align: center;
+                        color: rgb(14, 14, 250);
+                        border: solid 3px rgb(24, 24, 83);
+                    }
+                    
+                    h2 {
+                        background-color: rgb(194, 159, 159);
+                        border-radius: 80%;
+                        margin-left: 20px;
+                        padding-left: 2px;
+                        text-align: center;
+                        text-underline-position: above;
+                        text-align: center;
+                        color: rgb(179, 42, 167);
+                        border: solid 3px rgb(84, 84, 218);
+                        padding-top: 2px;
+                    }
+                    
+                    h3 {
+                        background-color: rgb(166, 165, 245);
+                        border-radius: 70%;
+                        margin-left: 20px;
+                        padding-left: 2px;
+                        text-align: center;
+                        text-underline-position: above;
+                        text-align: center;
+                        color: rgb(9, 14, 11);
+                        border: solid 3px rgb(142, 142, 194);
+                        border-bottom: violet;
+                        border-top: #090a09;
+                        border: solid 7px rgb(42, 45, 175);
+                        border-top: #090a09;
+                    }
+                    
+                    h4 {
+                        margin-left: 20px;
+                        padding-left: 20px;
+                        background-color: rgb(21, 153, 120);
+                        border-radius: 70%;
+                        border: solid 8px blue;
+                    }
+                    
+                    h5 {
+                        margin: left 20px;
+                        ;
+                        background-color: rgb(52, 138, 172);
+                        text-align: center;
+                        border-radius: 33px;
+                        border: solid 3px green;
+                        padding-top: 20px;
+                        padding-bottom: 33px;
+                        color: rgb(22, 11, 11)
+                    }
